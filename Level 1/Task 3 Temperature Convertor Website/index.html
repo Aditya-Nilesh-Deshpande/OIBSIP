@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Convertor</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="temp-convertor">
+
+            <h4 class="title">Convert Temperature</h4>
+
+            <!-- <div class="form"> -->
+
+            <form action="" name="form">
+
+                <div class="workSpace">
+                    <div class="temp-calculator-inputs">
+                        <div class="calculator-value">
+                            <label for="">Value to Convert: </label>
+                            <input type="text" placeholder="Enter the number to convert" name="value" id="input-value">
+                        </div>
+
+                        <div class="calculator-input">
+                            <label for="">From: </label>
+                            <select name="input" id="input">
+                                <option value="celsius">Celsius (C)</option>
+                                <option value="fahrenheit">Fahrenheit (F)</option>
+                                <option value="kelvin">Kelvin (K)</option>
+                            </select>
+                        </div>
+
+                        <div class="calculator-input">
+                            <label for="">To: </label>
+                            <select name="output" id="output">
+                                <option value="celsius">Celsius (C)</option>
+                                <option value="fahrenheit">Fahrenheit (F)</option>
+                                <option value="kelvin">Kelvin (K)</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <button type="button" id="convert" class="btn">Convert</button>
+                    <button type="button" id="clear" class="btn">Clear</button>
+
+                    <div class="result">
+                        <label for="">Answer: </label>
+                        <input type="text" id="result">
+                    </div>
+
+                </div>
+            </form>
+
+            <!-- </div> -->
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
